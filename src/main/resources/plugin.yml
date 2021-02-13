@@ -1,0 +1,12 @@
+name: FirstPlugin
+version: ${project.version}
+main: me.givemedoner.firstplugin.FirstPlugin
+authors: [ GiveMeDoner ]
+description: GiveMeDoner hi's first plugin.
+commands:
+  die:
+    description: Je gaat dood.
+  heal:
+    description: Je word healed.
+    aliases: [h]
+
